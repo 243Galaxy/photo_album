@@ -25,4 +25,5 @@ Route::get('signin', SignInComponent::class)->name('signin');
 
 Route::middleware('auth','authadmin')->group(function () {
     Route::get('/admin/dashboard', DashboardComponent::class)->name('admin.dashboard');
+
 });
