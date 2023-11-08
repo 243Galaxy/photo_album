@@ -10,7 +10,7 @@
 </head>
 <body class="bg-gray-900">
 <div class="flex flex-wrap">
-    <div class="w-1/4">
+    <div class="w-1/6">
         @livewire('admin.sidebar-component')
     </div>
     {{ $slot }}
